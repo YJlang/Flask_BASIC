@@ -1,0 +1,48 @@
+# Python 가상환경
+venv/
+env/
+.env/
+.venv/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask 관련
+instance/
+.webassets-cache
+
+# 데이터베이스 관련
+*.db
+*.sqlite3
+
+# 환경 변수 파일
+.env
+.flaskenv
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 배포 관련
+*.pyc
+build/
+dist/
+*.egg-info/
+
+# 개발 중 생성되는 임시 파일
+temp/
+tmp/
+
+# 의존성 파일 (선택적)
+# requirements.txt는 보통 포함시킵니다
